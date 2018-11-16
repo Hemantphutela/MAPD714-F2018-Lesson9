@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		41E3FD9A219E48AB00952735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3FD99219E48AB00952735 /* AppDelegate.swift */; };
-		41E3FD9C219E48AB00952735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3FD9B219E48AB00952735 /* ViewController.swift */; };
 		41E3FD9F219E48AB00952735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3FD9D219E48AB00952735 /* Main.storyboard */; };
 		41E3FDA1219E48AC00952735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E3FDA0219E48AC00952735 /* Assets.xcassets */; };
 		41E3FDA4219E48AC00952735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3FDA2219E48AC00952735 /* LaunchScreen.storyboard */; };
+		41E3FDAC219E4D5300952735 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3FDAB219E4D5300952735 /* FavoritesList.swift */; };
+		41E3FDAE219E54B600952735 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3FDAD219E54B600952735 /* RootViewController.swift */; };
+		41E3FDB0219E678B00952735 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3FDAF219E678B00952735 /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41E3FD96219E48AB00952735 /* MAPD714-F2018-Lesson9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2018-Lesson9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E3FD99219E48AB00952735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41E3FD9B219E48AB00952735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41E3FD9E219E48AB00952735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41E3FDA0219E48AC00952735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E3FDA3219E48AC00952735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E3FDA5219E48AC00952735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E3FDAB219E4D5300952735 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		41E3FDAD219E54B600952735 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		41E3FDAF219E678B00952735 /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				41E3FD99219E48AB00952735 /* AppDelegate.swift */,
-				41E3FD9B219E48AB00952735 /* ViewController.swift */,
 				41E3FD9D219E48AB00952735 /* Main.storyboard */,
 				41E3FDA0219E48AC00952735 /* Assets.xcassets */,
 				41E3FDA2219E48AC00952735 /* LaunchScreen.storyboard */,
 				41E3FDA5219E48AC00952735 /* Info.plist */,
+				41E3FDAB219E4D5300952735 /* FavoritesList.swift */,
+				41E3FDAD219E54B600952735 /* RootViewController.swift */,
+				41E3FDAF219E678B00952735 /* FontListViewController.swift */,
 			);
 			path = "MAPD714-F2018-Lesson9";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E3FD9C219E48AB00952735 /* ViewController.swift in Sources */,
 				41E3FD9A219E48AB00952735 /* AppDelegate.swift in Sources */,
+				41E3FDB0219E678B00952735 /* FontListViewController.swift in Sources */,
+				41E3FDAE219E54B600952735 /* RootViewController.swift in Sources */,
+				41E3FDAC219E4D5300952735 /* FavoritesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = "MAPD714-F2018-Lesson9/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = "MAPD714-F2018-Lesson9/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
